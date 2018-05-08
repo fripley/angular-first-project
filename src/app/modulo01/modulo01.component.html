@@ -1,0 +1,9 @@
+<h1 style="text-align: center;">
+  Lista de funcionários <a href="{{ linkPortal }}">{{ nomePortal }}</a>
+</h1>
+<ul>
+  <li *ngFor="let funcionario of funcionarios">
+    {{ funcionario }}
+  </li>
+</ul>
+<app-modulo-detalhes></app-modulo-detalhes>
